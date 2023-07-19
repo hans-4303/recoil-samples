@@ -20,6 +20,10 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
+  /* compilerOptions 아래에 exclude 키와 배열, 무시할 경로를 작성할 것 */
+  "exclude": [
+    "src/Examples/*"
+  ],
   "include": [
     "src"
   ]
